@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RxJava - A Few Lessons Learned"
-description: "A ton of text to test readability."
+description: "Quick thoughts after using RxJava for a few months"
 date: 2016-09-17
 tags: [rxjava, android]
 comments: true
