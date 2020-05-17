@@ -19,7 +19,7 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "codeular"
+  id:               "virtubill"
 
 # URL
 url:                "http://billwetter.com" # the base hostname & protocol for your site
@@ -42,8 +42,8 @@ kramdown:
 
 # Navigation
 nav:
-  # - name:           "About"
-  #   url:            "/about"
+  - name:           "About"
+    url:            "/about"
   - name:           "Archive"
     url:            "/archive"
   - name:           "Tags"
@@ -72,11 +72,9 @@ defaults:
       layout:       "post"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-admin
+ # - jekyll-admin
 
 exclude:            [vendor]
-
-theme: jekyll-theme-tactile
