@@ -78,3 +78,5 @@ plugins:
  # - jekyll-admin
 
 exclude:            [vendor]
+
+theme: jekyll-theme-tactile
